@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'net.morimori'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation "com.github.TheRandomLabs:CurseAPI:master-SNAPSHOT"
+    implementation "com.github.TheRandomLabs:CurseAPI-Minecraft:master-SNAPSHOT"
+    implementation 'org.slf4j:slf4j-simple:2.0.0-alpha1'
+    implementation 'com.google.code.gson:gson:2.8.7'
+}
+
+test {
+    useJUnitPlatform()
+}
