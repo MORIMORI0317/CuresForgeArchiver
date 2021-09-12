@@ -1,6 +1,12 @@
 ### Example user template template
 ### Example user template
 
+config.json
+archive_Modpacks
+archive_Mods
+archive_Resource Packs
+archive_Worlds
+
 # IntelliJ project files
 .idea
 *.iml

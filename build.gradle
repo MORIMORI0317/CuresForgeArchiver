@@ -19,6 +19,7 @@ dependencies {
     implementation "com.github.TheRandomLabs:CurseAPI-Minecraft:master-SNAPSHOT"
     implementation 'org.slf4j:slf4j-simple:2.0.0-alpha1'
     implementation 'com.google.code.gson:gson:2.8.7'
+    implementation 'org.kohsuke:github-api:1.116'
 }
 
 test {
